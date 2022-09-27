@@ -47,10 +47,16 @@ com o próximo valor de uma tabela de senos previamente escrita na memória do m
 
 ![SW_Code_3](https://user-images.githubusercontent.com/114233216/192417023-0644f548-38c6-4880-b765-3aaf0c782b38.png)
 
-7. Resultado Obtido
+7. Resultado Obtido  
+
 ![1](https://user-images.githubusercontent.com/114233216/192417066-89201318-688a-4b32-a6cd-ed855dcfa38c.png)
 
 ![2](https://user-images.githubusercontent.com/114233216/192417077-3d9cfe51-2226-4f5f-bc9c-256125373a6b.png)
 
+O sinal em azul será o sinal senoidal de referência que fornecerá a oscilação para o laser DFB. Esse sinal tem uma frequência de 732 Hz e possui 128 amostras discretas por período.
 
+O sinal amarelo é apenas um sinal de debug. Tanto a borda superior como a borda inferior indicam o início do preenchimento do buffer. Nesse experimento foi configurado um buffer com 128 posições. Isso significa que o buffer armazena exatamente um período completo do sinal de referência.
+
+Vendo essa imagem é possível perceber uma defasagem entre o início do preenchimento do buffer e o início de um ciclo da senóide. É preciso analisar isso melhor.
+Nas próximas etapas
 
