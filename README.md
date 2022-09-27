@@ -55,7 +55,7 @@ com o próximo valor de uma tabela de senos previamente escrita na memória do m
 
 O sinal em azul será o sinal senoidal de referência que fornecerá a oscilação para o laser DFB. Esse sinal tem uma frequência de 732 Hz e possui 128 amostras discretas por período.
 
-O sinal amarelo é apenas um sinal de debug obtido na oirta PB7. Tanto a borda superior como a borda inferior indicam o início do preenchimento do buffer. Nesse experimento foi configurado um buffer com 128 posições. Isso significa que o buffer armazena exatamente um período completo do sinal de referência.
+O sinal amarelo é apenas um sinal de debug obtido na porta PB7. Tanto a borda superior como a borda inferior indicam o início do preenchimento do buffer. Nesse experimento foi configurado um buffer com 128 posições. Isso significa que o buffer armazena exatamente um período completo do sinal de referência.
 
 Vendo essa imagem é possível perceber uma defasagem entre o início do preenchimento do buffer e o início de um ciclo da senóide. É preciso analisar isso melhor.
 Nas próximas etapas
